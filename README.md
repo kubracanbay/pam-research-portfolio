@@ -2,8 +2,6 @@
   <img src="assets/pam-logo.png" width="280">
 </p>
 
-# PAM Research Portfolio
-
 This repository presents a structured collection of research work focused on **Privileged Access Management (PAM)**, **phishing-resistant authentication**, **continuous adaptive authentication**, and **PAM–SIEM integration**.  
 It includes summaries, conceptual overviews, and experimentally validated findings from three independent research papers.
 
