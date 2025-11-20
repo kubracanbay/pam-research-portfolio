@@ -1,41 +1,83 @@
 # PAM Research Portfolio
 
-This repository presents a structured collection of research, analysis and conceptual models related to **Privileged Access Management (PAM)**.  
-It consolidates the academic works I co-authored, including studies on authentication, adaptive access control and SIEM integration, and extends them with practical, implementation-oriented notes.
-
-The goal of this portfolio is to bridge the gap between **academic PAM research** and **real-world enterprise security implementations**.
+This repository presents a structured collection of research work focused on **Privileged Access Management (PAM)**, **phishing-resistant authentication**, **continuous adaptive authentication**, and **PAM–SIEM integration**.  
+It includes summaries, conceptual overviews, and experimentally validated findings from three independent research papers.
 
 ---
 
-## 📌 Included Areas of Research
+## 📚 Included Research
 
-### **1. PAM & Authentication**  
-- Privileged identity validation  
-- MFA workflows  
-- Session initiation and monitoring  
-- Risk considerations in administrative access  
+### **1) Comparative Analysis of Advanced MFA Approaches in PAM**
+A focused comparison of phishing-resistant and traditional MFA methods used in PAM systems.  
+Topics include:
+- FIDO2/WebAuthn  
+- Biometric authenticators  
+- Certificate-based smart cards  
+- OTP-based MFA (SMS/Email/Push/Token)  
+- Resistance to phishing, MitM, SIM-swapping, MFA fatigue  
+Status: ✔ Summary added → `articles/article-01-summary.md`
 
-### **2. Adaptive / Continuous Authentication in PAM**  
-- Risk-based decision models  
-- Behaviour-aware and context-aware authentication  
-- Step-up authentication triggers  
-- Session-level continuous evaluation  
+---
 
-### **3. PAM & SIEM Integration**  
-- Event forwarding architectures  
-- Correlation scenarios for privileged activity  
-- Audit trail centralization  
-- Detection of insider and external threats  
+### **2) Continuous Adaptive Authentication (CAA) Framework for PAM**
+Experimentally validated design of a Continuous Adaptive Authentication model for privileged sessions, combining:
+- Behavioral analytics  
+- Device posture  
+- Environmental context  
+- Risk scoring  
+- PAM + SIEM integration  
+Includes quantitative findings from controlled testbed experiments (97% detection accuracy, <1s MTTR).  
+Status: ⏳ Summary will be added
 
-Each topic is organized under the `articles/` directory with extended notes and summaries.
+---
+
+### **3) The Role of SIEM–PAM Integration in Strengthening Cybersecurity**
+Explores how forwarding PAM events into SIEM improves:
+- Real-time detection  
+- Contextual correlation  
+- Insider threat identification  
+- Automated incident response  
+Status: ⏳ Summary will be added
 
 ---
 
 ## 📂 Repository Structure
 
-```text
+```
 pam-research-portfolio/
 │
-├── articles/      # Article summaries and extended notes
-├── diagrams/      # Conceptual diagrams (optional)
-└── README.md      # Overview of the portfolio
+├── articles/
+│   ├── article-01-summary.md
+│   ├── article-02-summary.md
+│   └── article-03-summary.md
+│
+└── README.md
+```
+
+---
+
+## 🎯 Purpose of This Portfolio
+
+This repository is intended to:
+
+- Provide a structured view of PAM-focused academic and technical research  
+- Highlight practical insights on MFA, risk-based authentication, and PAM–SIEM alignment  
+- Support future work on Zero Trust, adaptive security controls, and behavioral analytics  
+- Serve as a reference for cybersecurity practitioners and PAM architects  
+
+---
+
+## 🤝 Collaboration
+
+This research portfolio has been jointly developed with **Osman Kaan Kars**,  
+Yeditepe University — Department of Computer Engineering.
+
+We collaborated on all three research papers:
+
+- Comparative Analysis of Advanced MFA Approaches in PAM  
+- Continuous Adaptive Authentication Framework for PAM  
+- The Role of SIEM–PAM Integration in Strengthening Cybersecurity  
+
+**Co-Author GitHub Profile:**  
+https://github.com/osmankaankars
+---
