@@ -19,13 +19,13 @@ Traditional OTP-based MFA methods (SMS, email, mobile app OTP, push notification
 
 ---
 
-## 🎯 Purpose
+## 1. Purpose
 Privileged accounts are the highest-value targets in an enterprise. As phishing techniques evolve—via fake login portals, reverse-proxy MitM tools, SIM-swapping, push-bombing, and social engineering—authentication becomes a critical weakness.  
 This summary captures the key insights into which MFA technologies offer *true phishing resistance* for PAM systems.
 
 ---
 
-## 🔍 Key Findings
+## 2. Key Findings
 
 ### **1) FIDO2 / WebAuthn — Strongest Protection**
 - Phishing success rate: **2%**
@@ -58,7 +58,7 @@ This summary captures the key insights into which MFA technologies offer *true p
 
 ---
 
-## 🧪 Method Overview
+## 3. Method Overview
 The evaluation included:
 - Credential-harvesting phishing sites  
 - Reverse-proxy MitM simulations (Evilginx2)  
@@ -69,7 +69,7 @@ The evaluation included:
 
 ---
 
-## 📌 Recommendations
+## 4. Recommendations
 - Prefer **phishing-resistant MFA** for privileged accounts:  
   **FIDO2/WebAuthn** and **biometric-backed FIDO authenticators**.
 - Avoid SMS/Email OTP for PAM access due to high compromise rates.
@@ -78,5 +78,5 @@ The evaluation included:
 
 ---
 
-## 🧾 Conclusion
+## 5. Conclusion
 FIDO2 and device-integrated biometric authentication offer the strongest protection against phishing in PAM environments, combining high security with excellent usability. Traditional OTP methods remain inadequate against modern phishing and MitM attacks. The study highlights that the future of PAM authentication lies in passwordless, phishing-resistant MFA.
