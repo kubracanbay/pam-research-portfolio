@@ -11,7 +11,4 @@
 
 ## Abstract
 
-With the increasing sophistication of phishing-based cyberattacks, particularly targeting privileged accounts, the demand for robust Multi-Factor Authentication (MFA) mechanisms in Privileged Access Management (PAM) systems has grown significantly. This paper presents a comparative analysis of leading MFA approaches—FIDO-based authentication, certificate-based smart cards, biometric methods—focusing on their applicability, usability, and resilience in high-security PAM environments. Advanced testing scenarios, including MitM attacks, phishing simulations, fake login pages, SIM swapping, push bombing, and social engineering attempts, are implemented to assess resistance under real conditions. …
-
-
-
+With the increasing sophistication of phishing-based cyberattacks, particularly targeting privileged accounts, the demand for robust Multi-Factor Authentication (MFA) mechanisms in Privileged Access Management (PAM) systems has grown significantly. This paper presents a comparative analysis of leading MFA approaches—FIDO-based authentication, certificate-based smart cards, biometric methods—focusing on their applicability, usability, and resilience in high-security PAM environments. Advanced testing scenarios, including MitM attacks, phishing simulations, fake login pages, SIM swapping, push bombing, and social engineering attempts, are implemented to assess resistance under real conditions.
