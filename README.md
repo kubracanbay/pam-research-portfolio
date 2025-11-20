@@ -33,18 +33,12 @@ Each topic is organized under the `articles/` directory with extended notes and 
 
 ## 📂 Repository Structure
 
+```text
 pam-research-portfolio/
 │
-├── articles/
-│ ├── article-01-pam-and-authentication.md
-│ ├── article-02-adaptive-authentication-in-pam.md
-│ └── article-03-pam-siem-integration.md
-│
-├── diagrams/
-│ └── README.md
-│
-└── README.md ← (this file)
----
+├── articles/      # Article summaries and extended notes
+├── diagrams/      # Conceptual diagrams (optional)
+└── README.md      # Overview of the portfolio
 
 ## 📄 Articles (Summaries & Details)
 
