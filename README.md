@@ -15,7 +15,6 @@ Topics include:
 - Certificate-based smart cards  
 - OTP-based MFA (SMS/Email/Push/Token)  
 - Resistance to phishing, MitM, SIM-swapping, MFA fatigue  
-Status: ✔ Summary added → `articles/article-01-summary.md`
 
 ---
 
@@ -27,7 +26,6 @@ Experimentally validated design of a Continuous Adaptive Authentication model fo
 - Risk scoring  
 - PAM + SIEM integration  
 Includes quantitative findings from controlled testbed experiments (97% detection accuracy, <1s MTTR).  
-Status: ⏳ Summary will be added
 
 ---
 
@@ -37,16 +35,8 @@ Explores how forwarding PAM events into SIEM improves:
 - Contextual correlation  
 - Insider threat identification  
 - Automated incident response  
-Status: ⏳ Summary will be added
 
 ## 📂 Repository Structure
-
-pam-research-portfolio/
-├── articles/
-│   ├── article-01-pam-mfa-comparative-analysis-summary.md
-│   ├── article-02-adaptive-authentication-summary.md
-│   └── article-03-pam-siem-integration-summary.md
-└── README.md
 
 ---
 
