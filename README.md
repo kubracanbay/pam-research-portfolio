@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/pam-logo.png" width="280">
+  <img src="assets/logo.png" width="280">
 </p>
 
 This repository presents a structured collection of research work focused on **Privileged Access Management (PAM)**, **phishing-resistant authentication**, **continuous adaptive authentication**, and **PAM–SIEM integration**.  
