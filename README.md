@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/logo.png" width="280">
-</p>
+<img src="logo.png" width="100%"/>
 
 This repository presents a structured collection of research work focused on **Privileged Access Management (PAM)**, **phishing-resistant authentication**, **continuous adaptive authentication**, and **PAM–SIEM integration**.  
 It includes summaries, conceptual overviews, and experimentally validated findings from three independent research papers.
