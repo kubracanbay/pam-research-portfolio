@@ -7,7 +7,7 @@
 - **Osman Kaan Kars**, Yeditepe University, Faculty of Engineering, Department of Computer Engineering, Istanbul, Turkey  
   ORCID: https://orcid.org/0009-0003-3490-8412  
 
-# Summary — Comparative Analysis of Advanced MFA Approaches in PAM Against Phishing Attacks
+## Abstract
 
 This work provides a focused comparison of advanced Multi-Factor Authentication (MFA) approaches used in Privileged Access Management (PAM) environments, specifically evaluating their resistance to modern phishing and Man-in-the-Middle (MitM) attacks. The study analyzes three primary advanced MFA methods:
 
