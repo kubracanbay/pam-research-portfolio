@@ -43,16 +43,10 @@ Status: ⏳ Summary will be added
 
 ## 📂 Repository Structure
 
-```
-pam-research-portfolio/
-│
-├── articles/
-│   ├── article-01-summary.md
-│   ├── article-02-summary.md
-│   └── article-03-summary.md
-│
-└── README.md
-```
+articles/
+├── article-01-pam-mfa-comparative-analysis-summary.md
+├── article-02-adaptive-authentication-summary.md
+└── article-03-pam-siem-integration-summary.md
 
 ---
 
