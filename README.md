@@ -39,14 +39,14 @@ Explores how forwarding PAM events into SIEM improves:
 - Automated incident response  
 Status: ⏳ Summary will be added
 
----
-
 ## 📂 Repository Structure
 
-articles/
-├── article-01-pam-mfa-comparative-analysis-summary.md
-├── article-02-adaptive-authentication-summary.md
-└── article-03-pam-siem-integration-summary.md
+pam-research-portfolio/
+├── articles/
+│   ├── article-01-pam-mfa-comparative-analysis-summary.md
+│   ├── article-02-adaptive-authentication-summary.md
+│   └── article-03-pam-siem-integration-summary.md
+└── README.md
 
 ---
 
